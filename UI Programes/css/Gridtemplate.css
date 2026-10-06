@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+.container{
+    border: 1px solid black;
+    margin: auto;
+    width: 80%;
+    min-height: 400px;
+    text-align: center;
+
+}
+.container.header{
+    border: 1px solid red;
+    width: 60%;
+    min-height: 200px;
+    margin: auto;
+    padding: 10px;
+
+}
+.header{
+    border: 1px solid red;
+    width: 98%;
+    min-height: 50px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.logo{
+    border: 1px solid blue;
+    width: 50%
+    min-height: 50px;
+   
+    
+
+}
+.menu{
+     border: 1px solid blue;
+    width: 95%;
+    min-height: 50px;
+
+}
+.slider{
+    border: 1px solid black;
+    width: 98%;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.product
+{
+    border: 1px solid black;
+    width: 98%;
+   min-height: 300px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: auto;
+
+}
+.pro1{
+    border: 1px solid black;
+    min-height: 50px;
+    margin: 10px;
+    
+    
+}
+.pro2{
+    border: 1px solid black;
+    min-height: 50px;
+     margin: 10px;
+    
+}
+.pro3{
+    border: 1px solid black;
+    min-height: 50px;
+     margin: 10px;
+    
+    
+}
+.paragraph{
+    border: 1px solid black;
+    margin: auto;
+    width: 98%;
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.bar
+{
+    border: 1px solid black;
+    min-height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.content
+{
+    border: 1px solid black;
+    min-height: 200px;
+    width: 800px;
+    margin-top: 10px;
+     margin: 10px;
+    
+}
+.footer{
+    border: 1 px solid black;
+    min-height: 50px;
+    width: 80%;
+    margin: auto
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            min-height: 300px;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid;
+            background-color: aqua;
+            min-height: 300px;
+            
+        }
+        table,tr,th,td{
+            border-collapse: collapse;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+            background-color: aliceblue;
+            
+    
+            
+        }
+        #a{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <table border="1px">
+            <h1 id="a">Rowspan Colspan</h1>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+            </tr>
+            <tr>
+                <td rowspan="5">Span Rows</td>
+                <td colspan="3">Span Columns</td>
+            </tr>
+            <tr>
+                <td colspan="2">Span Columns</td>
+                <td rowspan="4">Span Both</td>
+
+            </tr>
+            <tr>
+                <td rowspan="3">Span rows</td>
+                <td>Span Columns</td>
+                
+                
+            </tr>
+            <tr>
+                <td rowspan="=2">Span Both</td>
+            </tr>
+           
+
+
+        </table>
+
+    </div>
+</body>
+</html>

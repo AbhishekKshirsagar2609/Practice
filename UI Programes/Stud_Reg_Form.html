@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            min-height: 50px;
+            width: 80%;
+            padding: 10px;
+            margin: auto;
+
+            
+            
+            
+             
+        }
+        .box h1{
+            text-align: center;
+            padding: auto;
+            margin: auto;
+        }
+        .formdata{
+            min-height: 80%;
+            width: 100%;
+            border: 1px solid red
+            
+            
+        }
+        table,tr,td{
+            border: 1px solid black;
+            padding: 5px;
+           
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+           
+
+        }
+        input[type="text"],input[type="number"],input[type="date"]{
+            width: 60%;
+            padding: 5px;
+            
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Student Registration</h1>
+        <div class="formdata">
+            <form >
+                <table>
+                    <tr>
+                        <td><label>Enter a Name</label></td>
+                        <td><input type="text" name="txtReg" id="txtReg" placeholder="Enter a Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label >Enter age</label></td>
+                        <td><input type="number" id="age" name="age" placeholder="Enter age"></td>
+                    </tr>
+                    <tr>
+                        <td><label >Select Gender</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="Male">Male
+                            <input type="radio" name="gender" value="Female">Female
+                            <input type="radio" name="gender" value="other">Other
+                        </td>
+                        <tr>
+                            <td><label>Enter BirthDate</label></td>
+                            <td><input type="date" id="date" name="date"></td>
+                        </tr>
+                    </tr>
+                    
+                        
+
+                </table>
+
+            </form>
+
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

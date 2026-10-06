@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+       .formdata{
+        padding: 30px;
+        margin: 60px;
+       }
+    </style>
+</head>
+<body>
+
+    <form action="" class="formdata">
+
+        <label for="username">Name:</label><input type="text" name="username" id="username" placeholder="Enter your name"><br>
+        <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="Enter valid email"><br>
+        <label for="pass">Password:</label><input type="password" name="pass" id="pass" placeholder="Enter a password"><br>
+        
+
+        <input type="radio" name="gender" value="Male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender"  value="Female"  id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender"  value="Other"  id="other">
+        <label for="other">Other</label><br>
+
+        <input type="checkbox" name="skills" id="java" value="java">
+        <label for="java">Java</label>
+        <input type="checkbox" name="skills" id="sql" value="SQL">
+        <label for="sql">SQL</label>
+        <input type="checkbox" name="skills" id="html" value="html">
+        <label for="html">HTML</label><br>
+
+        <label for="branch">Select Branch</label>
+        <select name="branch" id="branch">
+            <option value=""selected>Select Branch</option>
+            <option value="entc">ENTC</option>
+            <option value="it">IT</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="computer">Computer</option>
+        </select><br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" placeholder="Enter your address" rows="5" cols="20"></textarea><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">click me</button><br>
+
+
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.box
+{
+ border: 1px solid black;
+ width: 80%;
+ min-height: 300px;
+ margin: auto;
+ padding: 10px;padding: 10px;
+ 
+}
+.box,h1{
+    text-align: center;
+    
+}
+.form-data
+{
+  /* border: 1px solid red; */
+  width: 100%;
+  min-height: 200px;
+
+
+}
+table{
+    /* border: 1px solid grey; */
+    border-collapse: collapse;
+   width: 100%;
+}
+input[type="text"],input[type="no"]
+{
+    width: 60%;
+    padding: 5px;
+    margin: 5px;
+
+}
+.Day
+{
+    width: 20%;
+    padding: 5px;
+}
+.Month{
+    width: 20%;
+    padding: 5px;
+}
+.Year
+{
+    width: 20%;
+    padding: 5px;
+}
+.Reg
+{
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+.Clear{
+    background-color: tomato;
+    color: white;
+    width: 200px;
+    
+
+}

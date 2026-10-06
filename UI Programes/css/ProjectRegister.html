@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .container
+        {
+            width: 60%;
+            height: 500px;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+          
+        
+        }
+        
+        .box1
+        {
+            display: flex;
+            gap: 10px;
+            margin: 10px;
+
+        }
+        .box2{
+             display: flex;
+            gap: 10px;
+            margin: 10px;
+
+
+        }
+        .box3{
+             display: flex;
+            gap: 10px;
+            margin: 10px;
+        }
+        input{
+            width: 400px;
+            height: 40px;
+            text-align: center;
+            
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Register Form</h1>
+        <div class="box1">
+            <input type="text" name="name" value="" placeholder="Enter  Name"><br>
+            <input type="email" name="email" id="email"value=""placeholder="Enter  Email">
+            
+        </div>
+        <div class="box2">
+              <input type="number" name="contact" value="" placeholder="Enter  contact "><br>
+            <input type="text" name="address" id="address"value=""placeholder="Enter  Address">
+            
+
+        </div>
+        <div class="box3">
+               <input type="text" name="username" value="" placeholder="Enter  Username "><br>
+            <input type="password" name="password" id="password"value=""placeholder="Enter  Password">
+            
+
+        </div>
+        <button>Register</button>
+
+    </div>
+    
+</body>
+</html>
